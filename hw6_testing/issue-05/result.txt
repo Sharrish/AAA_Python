@@ -1,0 +1,20 @@
+COMMAND:
+python -m pytest what_is_year_now_tests.py --cov=what_is_year_now > result.txt
+
+
+OUTPUT:
+============================= test session starts ==============================
+platform linux -- Python 3.8.5, pytest-6.1.2, py-1.9.0, pluggy-0.13.1
+rootdir: /home/sait/Documents/AAApython/hw6_testing/issue-05
+plugins: cov-2.10.1
+collected 4 items
+
+what_is_year_now_tests.py ....                                           [100%]
+
+----------- coverage: platform linux, python 3.8.5-final-0 -----------
+Name                  Stmts   Miss  Cover
+-----------------------------------------
+what_is_year_now.py      19      0   100%
+
+
+============================== 4 passed in 0.07s ===============================

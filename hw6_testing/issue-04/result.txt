@@ -1,0 +1,13 @@
+COMMAND:
+python3 -m pytest one_hot_encoder_pytest.py > result.txt
+
+
+OUTPUT:
+============================= test session starts ==============================
+platform linux -- Python 3.8.5, pytest-6.1.2, py-1.9.0, pluggy-0.13.1
+rootdir: /home/sait/Documents/AAApython/hw6_testing/issue-04
+collected 7 items
+
+one_hot_encoder_pytest.py .......                                        [100%]
+
+============================== 7 passed in 0.01s ===============================

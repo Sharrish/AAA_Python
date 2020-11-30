@@ -1,0 +1,11 @@
+COMMAND:
+python -m unittest one_hot_encoder_unittest
+
+
+OUTPUT:
+........
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK
+
