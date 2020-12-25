@@ -1,0 +1,23 @@
+COMMAND:
+python3 -m pytest tests.py --cov=pizza --cov=processes_with_pizza --cov=click_for_pizza > coverage_result.txt
+
+OUTPUT:
+============================= test session starts ==============================
+platform linux -- Python 3.8.5, pytest-6.2.1, py-1.10.0, pluggy-0.13.1
+rootdir: /home/sait/Documents/AAApython/exam_pizza
+plugins: cov-2.10.1
+collected 14 items
+
+tests.py ..............                                                  [100%]
+
+----------- coverage: platform linux, python 3.8.5-final-0 -----------
+Name                      Stmts   Miss  Cover
+---------------------------------------------
+click_for_pizza.py           27      2    93%
+pizza.py                     37      0   100%
+processes_with_pizza.py      24      0   100%
+---------------------------------------------
+TOTAL                        88      2    98%
+
+
+============================== 14 passed in 0.10s ==============================
